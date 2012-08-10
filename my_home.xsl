@@ -20,6 +20,9 @@
 </head>
 <body>
 <xsl:apply-templates select="page" />
+<hr/>
+<p style="text-align:left;">
+	<a href="/salamander/third/">home</a></p>
 <p style="text-align:right;">
 	<a href="http://validator.w3.org/check?uri=referer"><img
 		src="http://www.w3.org/Icons/valid-xhtml10"
