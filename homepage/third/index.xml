@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<page>
+<title>JJ's Home</title>
+<link><title>tumblr</title>
+	<image><address>/salamander/third/images/tumblr_icon.png</address></image>
+	<address>http://www.tumblr.com/dashboard</address></link>
+<link><title>gmail</title>
+	<image><address>/salamander/third/images/gmail_icon.png</address></image>
+	<address>https://gmail.com/</address></link>
+<link><title>twitter</title>
+	<image><address>/salamander/third/images/twitter_icon.png</address></image>
+	<address>https://twitter.com/</address></link>
+<link><title>facebook</title>
+	<image><address>/salamander/third/images/facebook_icon.png</address></image>
+	<address>http://facebook.com/</address></link>
+<link><title>mixi</title>
+	<image><address>/salamander/third/images/mixi_icon.png</address></image>
+	<address>http://mixi.jp/</address></link>
+<link><title>m3</title>
+	<image><address>/salamander/third/images/m3_icon.png</address></image>
+	<address>http://www.m3.com/news/index.jsp</address></link>
+<link><title>github</title>
+	<image><address>/salamander/third/images/github_icon.png</address></image>
+	<address>https://github.com/</address></link>
+<link><title>blogger</title>
+	<image><address>/salamander/third/images/blogger_icon.png</address></image>
+	<address>http://www.blogger.com/home</address></link>
+<link><title>android appli</title>
+	<image><address>/salamander/third/images/google_play_icon.png</address></image>
+	<address>https://play.google.com/apps/publish/Home?dev_acc=09271776773520915086
+	</address></link>
+</page>
