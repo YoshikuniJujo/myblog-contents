@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <page>
 <title>lojban</title>
+<link><title>kamprije (txt)</title>
+	<address>ciska/kamprije.txt</address></link>
 <link><title>kamprije</title>
 	<address>ciska/kamprije.html</address></link>
 <link><title>kamprije with note</title>
