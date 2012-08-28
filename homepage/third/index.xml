@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <page>
 <title>JJ's Home</title>
+<link><title>lojban</title>
+	<address>lojban/</address></link>
 <link><title>tumblr</title>
 	<image><address>/salamander/third/images/tumblr_icon.png</address></image>
 	<address>http://www.tumblr.com/dashboard</address></link>
