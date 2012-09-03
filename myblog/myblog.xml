@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<diarys
+  ><diary
+    ><tags
+      ><title
+      >編集機能のために</title></tags
+    ><contents
+      ><line
+      >まずは、投稿に UUID をつける。</line
+      ><line
+      >そして、その UUID とタイトルの一覧を出力する機能をつけよう。</line
+      ><line
+      >その UUID は特定できる最短の長さを出力するようにする。</line
+      ><line
+      >そして UUID を指定して投稿を txt の形で入手する。</line
+      ><line
+      >その txt の uuid タグを変更しないで投稿すると編集投稿となり、</line
+      ><line
+      >uuid タグを消して投稿した場合には新規投稿とする。</line
+      ><line
+      >また、存在しない uuid タグをつけた投稿はエラーとする。</line
+      ><line
+      >削除もまた UUID で指定すれば良い。</line></contents></diary
+  ><diary
+    ><tags
+      ><title
+      >今後やることを書いてみる</title></tags
+    ><contents
+      ><line
+      >まず、ぜひとも必要なのが投稿の編集機能だ。</line
+      ><line
+      >これは、それぞれの投稿に ID をつけるところから始める必要がある。</line
+      ><line
+      >UUID でもつけておこうか。</line
+      ><line
+      >また、削除機能もつけよう。</line
+      ><line
+      ></line
+      ><line
+      >それと、また別の話題であるが、アクセス情報を取得して、アクセス統計を出す</line
+      ><line
+      >機能もつけたい。クッキーを使えば何人アクセスしたかを判断することができるが、</line
+      ><line
+      >クッキーの使いかたをまだ知らない。</line
+      ><line
+      >調べる必要があるな。</line></contents></diary
+  ><diary
+    ><tags
+      ><title
+      >はじめての投稿</title></tags
+    ><contents
+      ><line
+      >これは myblog を使ったはじめての投稿である。</line></contents></diary></diarys>

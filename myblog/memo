@@ -1,0 +1,15 @@
+2012.09.03 Mon.
+
+まずは、txt file から xml file を作り、
+そこから html file を作り up する仕組みを作ろう。
+
+とりあえず入力する txt file は、
+
+title: (title)
+(空行)
+(内容)
+.
+
+とする。
+これをまずは構文解析しよう。
+pappy を使おう。
