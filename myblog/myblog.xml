@@ -2,6 +2,23 @@
 <diarys
   ><diary
     ><tags
+      ><uuidlen
+      >1</uuidlen
+      ><uuid
+      >cd1b096a-fd83-492e-8851-0fef5b5792d9</uuid
+      ><title
+      >書き込みと削除</title></tags
+    ><contents
+      ><line
+      >書き込みと削除のテスト</line
+      ><line
+      >また、メモとして、例えば '.' を忘れたときに .xml が消えてしまわないようにする。</line></contents></diary
+  ><diary
+    ><tags
+      ><uuidlen
+      >1</uuidlen
+      ><uuid
+      >741b7f90-6fc1-4820-b41f-83e5bbf63f81</uuid
       ><title
       >編集機能のために</title></tags
     ><contents
@@ -23,6 +40,10 @@
       >削除もまた UUID で指定すれば良い。</line></contents></diary
   ><diary
     ><tags
+      ><uuidlen
+      >1</uuidlen
+      ><uuid
+      >9f818eff-9b5e-4aa4-838b-e67aaaba87c1</uuid
       ><title
       >今後やることを書いてみる</title></tags
     ><contents
@@ -46,6 +67,10 @@
       >調べる必要があるな。</line></contents></diary
   ><diary
     ><tags
+      ><uuidlen
+      >1</uuidlen
+      ><uuid
+      >14ddb3e1-85b5-4843-b2e0-98abf8e835a2</uuid
       ><title
       >はじめての投稿</title></tags
     ><contents
