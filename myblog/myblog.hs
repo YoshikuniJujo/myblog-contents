@@ -3,7 +3,6 @@ import MakeHtml
 import MyblogParser
 import Processing
 import System.Environment
-import Data.Maybe
 import Data.List
 
 main = do
@@ -11,17 +10,16 @@ main = do
 	case args of
 		("list" : largs) -> listDiary largs
 		("remove" : rargs) -> removeDiary rargs
+		("rewrite" : rargs) -> getDiary rargs
 		[fn] -> putDiary fn
-
-type Diary = ([(String, String)], [String])
 
 putDiary :: FilePath -> IO ()
 putDiary fn = do
 	txt <- readFile fn
 	olds <- xmlfileToData "myblog.xml"
 	let	new = parseInputText txt
-	new' <- addUUID new
-	let	dat = addNew new' olds -- new' : olds
+	(new', uuid) <- addUUID new
+	let	dat = maybe (addNew new' olds) (\u -> editDiary u new' olds) uuid
 	makeXmlfile "myblog.xml" dat
 	writeFile "myblog.html" $ makeHtml dat
 
@@ -30,6 +28,12 @@ addNew d@(tags, cnt) ds = let
 	len = getLen (lookD "uuid" d) (map (lookD "uuid") ds) + 1
 	nd = (("uuidlen", show len) : tags, cnt) in
 	nd : ds
+
+editDiary :: String -> Diary -> [Diary] -> [Diary]
+editDiary _ _ [] = error "bad UUID"
+editDiary u dn@(tags, cnt) (d : ds)
+	| checkUUID u d = (("uuidlen", lookD "uuidlen" d) : tags, cnt) : ds
+	| otherwise = d : editDiary u dn ds
 
 listDiary :: [String] -> IO ()
 listDiary largs = do
@@ -54,14 +58,26 @@ deleteDiary u = reverse . dd . reverse
 		| checkUUID u d = ds
 		| otherwise = d : dd ds
 
+getDiary :: [String] -> IO ()
+getDiary [u] = do
+	olds <- xmlfileToData "myblog.xml"
+	let	d = getD u olds
+	writeFile "diary.txt" $ makeText d
+
+getD :: String -> [Diary] -> Diary
+getD u = gd . reverse
+	where
+	gd (d@(tags, cnt) : ds)
+		| checkUUID u d = (filter ((/= "uuidlen") . fst) tags, cnt)
+		| otherwise = gd ds
+
+makeText :: Diary -> String
+makeText (tags, cnt) =
+	unlines (map (\(t, v) -> t ++ ": " ++ v) tags) ++ "\n" ++ unlines cnt ++
+	"."
+
 checkUUID :: String -> Diary -> Bool
 checkUUID s d = s `isPrefixOf` lookD "uuid" d
-
-lookD :: String -> Diary -> String
-lookD t = look t . fst
-
-look :: Eq a => a -> [(a, b)] -> b
-look = (.) fromJust . lookup
 
 getLen :: String -> [String] -> Int
 getLen _ [] = 0

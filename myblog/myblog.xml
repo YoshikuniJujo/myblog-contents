@@ -5,6 +5,19 @@
       ><uuidlen
       >1</uuidlen
       ><uuid
+      >d4c1841c-615e-460a-817c-ead2465c054c</uuid
+      ><title
+      >次にやること</title></tags
+    ><contents
+      ><line
+      >編集機能をつけるのだが、そのためにはまず、</line
+      ><line
+      >uuid を指定して、txt file を入手できるようにする必要がある。</line></contents></diary
+  ><diary
+    ><tags
+      ><uuidlen
+      >1</uuidlen
+      ><uuid
       >cd1b096a-fd83-492e-8851-0fef5b5792d9</uuid
       ><title
       >書き込みと削除</title></tags
@@ -12,7 +25,9 @@
       ><line
       >書き込みと削除のテスト</line
       ><line
-      >また、メモとして、例えば '.' を忘れたときに .xml が消えてしまわないようにする。</line></contents></diary
+      >また、メモとして、例えば '.' を忘れたときに .xml が消えて</line
+      ><line
+      >しまわないようにする。</line></contents></diary
   ><diary
     ><tags
       ><uuidlen
@@ -25,7 +40,9 @@
       ><line
       >まずは、投稿に UUID をつける。</line
       ><line
-      >そして、その UUID とタイトルの一覧を出力する機能をつけよう。</line
+      >そして、その UUID とタイトルの一覧を出力する機能を</line
+      ><line
+      >つけよう。</line
       ><line
       >その UUID は特定できる最短の長さを出力するようにする。</line
       ><line
