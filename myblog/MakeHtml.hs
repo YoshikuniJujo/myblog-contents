@@ -7,7 +7,7 @@ import Data.Maybe
 makeHtml :: [([(String, String)], [String])] -> String
 makeHtml dat =
 	xmlheader ++ doctype ++ htmlOpen ++ header ++
-	body (unlines (map makeTC dat) ++ cont) ++
+	body (unlines (map makeTC dat) ++ cont ++ access) ++
 	htmlClose
 
 makeTC :: ([(String, String)], [String]) -> String
@@ -33,3 +33,7 @@ cont = "<p style=\"text-align:right;\">\n" ++
 	"<a href=\"http://validator.w3.org/check?uri=referer\">\n" ++
 	"<img src=\"http://www.w3.org/Icons/valid-xhtml10\"\n\t" ++
 	"alt=\"Valid XHTML 1.0 Strict\" height=\"31\" width=\"88\"/></a></p>"
+
+access = "<p style=\"text-align:right;\">" ++
+	"<img src=\"http://hpcgi3.nifty.com/salamander/myblog/powered_by.pl\"/>" ++
+	"</p>\n"

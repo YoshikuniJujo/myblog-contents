@@ -3,6 +3,23 @@
   ><diary
     ><tags
       ><uuidlen
+      >2</uuidlen
+      ><uuid
+      >1ac73309-4cad-4dac-8d75-78d2baf8813e</uuid
+      ><title
+      >編集機能ができた</title></tags
+    ><contents
+      ><line
+      >編集機能をつけることに成功した。</line
+      ><line
+      >編集してみる。</line
+      ><line
+      >アクセス解析機能をつけたい。</line
+      ><line
+      >また[イイネ]機能とかつけようかな。</line></contents></diary
+  ><diary
+    ><tags
+      ><uuidlen
       >1</uuidlen
       ><uuid
       >d4c1841c-615e-460a-817c-ead2465c054c</uuid
@@ -67,7 +84,9 @@
       ><line
       >まず、ぜひとも必要なのが投稿の編集機能だ。</line
       ><line
-      >これは、それぞれの投稿に ID をつけるところから始める必要がある。</line
+      >これは、それぞれの投稿に ID をつけるところから始める必要が</line
+      ><line
+      >ある。</line
       ><line
       >UUID でもつけておこうか。</line
       ><line
@@ -75,11 +94,13 @@
       ><line
       ></line
       ><line
-      >それと、また別の話題であるが、アクセス情報を取得して、アクセス統計を出す</line
+      >それと、また別の話題であるが、アクセス情報を取得して、</line
       ><line
-      >機能もつけたい。クッキーを使えば何人アクセスしたかを判断することができるが、</line
+      >アクセス統計を出す機能もつけたい。</line
       ><line
-      >クッキーの使いかたをまだ知らない。</line
+      >クッキーを使えば何人アクセスしたかを判断することが</line
+      ><line
+      >できるが、クッキーの使いかたをまだ知らない。</line
       ><line
       >調べる必要があるな。</line></contents></diary
   ><diary

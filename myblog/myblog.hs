@@ -10,7 +10,7 @@ main = do
 	case args of
 		("list" : largs) -> listDiary largs
 		("remove" : rargs) -> removeDiary rargs
-		("rewrite" : rargs) -> getDiary rargs
+		("edit" : rargs) -> getDiary rargs
 		[fn] -> putDiary fn
 
 putDiary :: FilePath -> IO ()
