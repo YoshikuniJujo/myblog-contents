@@ -31,7 +31,7 @@ body cnt = "<body>" ++ cnt ++ "</body>"
 
 counter = "<p style=\"text-align:right;\">\n" ++
 	"<img src=\"http://hpcounter.nifty.com/cgi-bin/counter.cgi?" ++
-	"f=salamander&n=1&d=3\"/>" ++
+	"f=salamander&amp;n=1&amp;d=3\" alt=\"counter\"/>" ++
 	"</p>\n"
 
 cont = "<p style=\"text-align:right;\">\n" ++
@@ -40,5 +40,6 @@ cont = "<p style=\"text-align:right;\">\n" ++
 	"alt=\"Valid XHTML 1.0 Strict\" height=\"31\" width=\"88\"/></a></p>\n"
 
 access = "<p style=\"text-align:right;\">" ++
-	"<img src=\"http://hpcgi3.nifty.com/salamander/myblog/powered_by.pl\"/>" ++
+	"<img src=\"http://hpcgi3.nifty.com/salamander/myblog/powered_by.pl\" " ++
+	"alt=\"gentoo\"/>" ++
 	"</p>\n"
