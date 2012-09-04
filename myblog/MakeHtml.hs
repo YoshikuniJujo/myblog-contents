@@ -7,7 +7,7 @@ import Data.Maybe
 makeHtml :: [([(String, String)], [String])] -> String
 makeHtml dat =
 	xmlheader ++ doctype ++ htmlOpen ++ header ++
-	body (unlines (map makeTC dat) ++ cont ++ access) ++
+	body (unlines (map makeTC dat) ++ counter ++ cont ++ access) ++
 	htmlClose
 
 makeTC :: ([(String, String)], [String]) -> String
@@ -29,10 +29,15 @@ htmlClose = "</html>\n"
 header = "<head><title>iocikun. snukarni</title></head>\n"
 body cnt = "<body>" ++ cnt ++ "</body>"
 
+counter = "<p style=\"text-align:right;\">\n" ++
+	"<img src=\"http://hpcounter.nifty.com/cgi-bin/counter.cgi?" ++
+	"f=salamander&n=1&d=3\"/>" ++
+	"</p>\n"
+
 cont = "<p style=\"text-align:right;\">\n" ++
 	"<a href=\"http://validator.w3.org/check?uri=referer\">\n" ++
 	"<img src=\"http://www.w3.org/Icons/valid-xhtml10\"\n\t" ++
-	"alt=\"Valid XHTML 1.0 Strict\" height=\"31\" width=\"88\"/></a></p>"
+	"alt=\"Valid XHTML 1.0 Strict\" height=\"31\" width=\"88\"/></a></p>\n"
 
 access = "<p style=\"text-align:right;\">" ++
 	"<img src=\"http://hpcgi3.nifty.com/salamander/myblog/powered_by.pl\"/>" ++

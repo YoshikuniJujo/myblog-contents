@@ -5,23 +5,29 @@ import Processing
 import System.Environment
 import Data.List
 
+{-
+blogName :: String
+blogName = "myblog"
+-}
+
 main = do
+	bn <- takeWhile (/= '.') `fmap` getProgName
 	args <- getArgs
 	case args of
-		("list" : largs) -> listDiary largs
-		("remove" : rargs) -> removeDiary rargs
-		("edit" : rargs) -> getDiary rargs
-		[fn] -> putDiary fn
+		("list" : largs) -> listDiary bn largs
+		("remove" : rargs) -> removeDiary bn rargs
+		("edit" : rargs) -> getDiary bn rargs
+		[fn] -> putDiary bn fn
 
-putDiary :: FilePath -> IO ()
-putDiary fn = do
+putDiary :: String -> FilePath -> IO ()
+putDiary blogName fn = do
 	txt <- readFile fn
-	olds <- xmlfileToData "myblog.xml"
+	olds <- xmlfileToData $ blogName ++ ".xml"
 	let	new = parseInputText txt
 	(new', uuid) <- addUUID new
 	let	dat = maybe (addNew new' olds) (\u -> editDiary u new' olds) uuid
-	makeXmlfile "myblog.xml" dat
-	writeFile "myblog.html" $ makeHtml dat
+	makeXmlfile (blogName ++".xml") dat
+	writeFile (blogName ++ ".html") $ makeHtml dat
 
 addNew :: Diary -> [Diary] -> [Diary]
 addNew d@(tags, cnt) ds = let
@@ -35,21 +41,21 @@ editDiary u dn@(tags, cnt) (d : ds)
 	| checkUUID u d = (("uuidlen", lookD "uuidlen" d) : tags, cnt) : ds
 	| otherwise = d : editDiary u dn ds
 
-listDiary :: [String] -> IO ()
-listDiary largs = do
-	olds <- xmlfileToData "myblog.xml"
+listDiary :: String -> [String] -> IO ()
+listDiary blogName largs = do
+	olds <- xmlfileToData $ blogName ++ ".xml"
 	let	u = lookD "uuid"
 		t = lookD "title"
 		l = read . lookD "uuidlen"
 	putStr $ unlines $
 		map (\o -> take (l o) (u o) ++ replicate (8 - l o) ' ' ++ t o) olds
 
-removeDiary :: [String] -> IO ()
-removeDiary [u] = do
-	olds <- xmlfileToData "myblog.xml"
+removeDiary :: String -> [String] -> IO ()
+removeDiary blogName [u] = do
+	olds <- xmlfileToData $ blogName ++ ".xml"
 	let	new = deleteDiary u olds
-	makeXmlfile "myblog.xml" new
-	writeFile "myblog.html" $ makeHtml new
+	makeXmlfile (blogName ++ ".xml") new
+	writeFile (blogName ++ ".html") $ makeHtml new
 
 deleteDiary :: String -> [Diary] -> [Diary]
 deleteDiary u = reverse . dd . reverse
@@ -58,9 +64,9 @@ deleteDiary u = reverse . dd . reverse
 		| checkUUID u d = ds
 		| otherwise = d : dd ds
 
-getDiary :: [String] -> IO ()
-getDiary [u] = do
-	olds <- xmlfileToData "myblog.xml"
+getDiary :: String -> [String] -> IO ()
+getDiary blogName [u] = do
+	olds <- xmlfileToData $ blogName ++ ".xml"
 	let	d = getD u olds
 	writeFile "diary.txt" $ makeText d
 

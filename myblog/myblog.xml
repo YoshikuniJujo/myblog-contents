@@ -3,6 +3,41 @@
   ><diary
     ><tags
       ><uuidlen
+      >1</uuidlen
+      ><uuid
+      >8c6855d4-05d0-4039-b0c1-0369ab0948a3</uuid
+      ><title
+      >いろいろと考えていること</title></tags
+    ><contents
+      ><line
+      >この自分専用ブログシステムで、</line
+      ><line
+      >いろいろとやりたいことがある。</line
+      ><line
+      >タグ付けってのもいいと思う。</line
+      ><line
+      >そしてタグのついた記事だけ表示するシステムとか作りたい。</line
+      ><line
+      >これはもととなる xml を up して、</line
+      ><line
+      >そこから perl で記事を引き出すようにすればいい。</line
+      ><line
+      >アクセス解析はブログを見てくれている人がいるってことが</line
+      ><line
+      >わかればうれしい。</line
+      ><line
+      >それだけのためのものなので、</line
+      ><line
+      >本質的には自分以外の人のアクセス数がわかればいい。</line
+      ><line
+      >また[イイネ]ボタンとコメント投稿の仕組みが欲しい。</line
+      ><line
+      >後者はスパム対策として数字を読ませる例のやりかたを</line
+      ><line
+      >採用しようかな。</line></contents></diary
+  ><diary
+    ><tags
+      ><uuidlen
       >2</uuidlen
       ><uuid
       >1ac73309-4cad-4dac-8d75-78d2baf8813e</uuid
