@@ -20,6 +20,8 @@
       ><line
       >0d. クッキーの練習 (3c)</line
       ><line
+      >0e. 注文の多い料理店を読む (1h)</line
+      ><line
       ></line
       ><line
       >1. ロジバンについて</line
@@ -37,6 +39,8 @@
       >1f. lojban-learn-words の refactoring</line
       ><line
       >1g. ロジバン語作文</line
+      ><line
+      >1h. 注文の多い料理店を読む</line
       ><line
       ></line
       ><line
@@ -80,6 +84,8 @@
       ><line
       >emerge -avu --deep --newuse world を定期的にやること</line
       ><line
+      >5b. 今の環境を構築する手順についてまとめる。この myblog でやるのが良いだろう</line
+      ><line
       ></line
       ><line
       >6. 記録等</line
@@ -99,6 +105,12 @@
       ></line
       ><line
       >8. 心の整理</line
+      ><line
+      ></line
+      ><line
+      >9. 精神医学について</line
+      ><line
+      >9a. 精神医学雑誌の症例を読む。ロジバンに訳す</line
       ><line
       ></line
       ><line
