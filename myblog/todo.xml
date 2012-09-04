@@ -10,6 +10,18 @@
       >やること</title></tags
     ><contents
       ><line
+      >0. 次にやるべきこと</line
+      ><line
+      >0a. CLL の翻訳 (1b)</line
+      ><line
+      >0b. パーサを書く (1a)</line
+      ><line
+      >0c. myblog の仕様 (3f)</line
+      ><line
+      >0d. クッキーの練習 (3c)</line
+      ><line
+      ></line
+      ><line
       >1. ロジバンについて</line
       ><line
       >1a. パーサを書く</line
@@ -51,6 +63,10 @@
       >3c. 上記のためにまずはクッキーを使う練習をしてみよう</line
       ><line
       >3e. 日付けを入れるようにする</line
+      ><line
+      >3f. 何も引数を取らずに実行したときに diary.txt を引数として実行するようにする</line
+      ><line
+      >3e. 上記仕様が本当に正しいかどうか考える。つまり、危険な仕様になっていないか</line
       ><line
       ></line
       ><line
