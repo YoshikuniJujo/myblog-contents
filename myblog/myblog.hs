@@ -4,11 +4,7 @@ import MyblogParser
 import Processing
 import System.Environment
 import Data.List
-
-{-
-blogName :: String
-blogName = "myblog"
--}
+import System.IO
 
 main = do
 	bn <- takeWhile (/= '.') `fmap` getProgName
@@ -17,7 +13,15 @@ main = do
 		("list" : largs) -> listDiary bn largs
 		("remove" : rargs) -> removeDiary bn rargs
 		("edit" : rargs) -> getDiary bn rargs
+		("new" : nargs) -> newDiary bn nargs
 		[fn] -> putDiary bn fn
+
+newDiary :: String -> [String] -> IO ()
+newDiary _ _ = do
+	putStr "title: "
+	hFlush stdout
+	title <- getLine
+	writeFile "diary.txt" $ "title: " ++ title ++ "\n\n.\n"
 
 putDiary :: String -> FilePath -> IO ()
 putDiary blogName fn = do

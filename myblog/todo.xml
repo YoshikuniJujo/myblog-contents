@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<diarys
+  ><diary
+    ><tags
+      ><uuidlen
+      >1</uuidlen
+      ><uuid
+      >1ebaf3d7-9a13-49c7-9b4d-591019a20af8</uuid
+      ><title
+      >やること</title></tags
+    ><contents
+      ><line
+      >1. ロジバンについて</line
+      ><line
+      >1a. パーサを書く</line
+      ><line
+      >1b. CLL の翻訳</line
+      ><line
+      >1c. CLL を読み進める</line
+      ><line
+      >1d. gismu を覚える</line
+      ><line
+      >1e. lojban-dictionary の refactoring</line
+      ><line
+      >1f. lojban-learn-words の refactoring</line
+      ><line
+      >1g. ロジバン語作文</line
+      ><line
+      ></line
+      ><line
+      >2. プログラミングについて</line
+      ><line
+      >2a. Haskell</line
+      ><line
+      >2b. Scala</line
+      ><line
+      >2c. Scala - android</line
+      ><line
+      >2d. javascript, Perl</line
+      ><line
+      ></line
+      ><line
+      >3. ブログについて</line
+      ><line
+      >3a. amp 等を入力、出力できるようにする</line
+      ><line
+      >3b. クッキーを使って同じ日の同じブラウザからのアクセスは</line
+      ><line
+      >記録しないようにする</line
+      ><line
+      >3c. 上記のためにまずはクッキーを使う練習をしてみよう</line
+      ><line
+      ></line
+      ><line
+      >4. Linux について</line
+      ><line
+      ></line
+      ><line
+      >5. PC の環境について</line
+      ><line
+      >5a. emerge --sync amp amp layman -S amp amp</line
+      ><line
+      >emerge -avu --deep --newuse world を定期的にやること</line
+      ><line
+      ></line
+      ><line
+      >6. 記録等</line
+      ><line
+      >6a. 自身の生活を記録する</line
+      ><line
+      >6b. お金を記録する</line
+      ><line
+      >6c. 生活のうえでするべきことを整理する(金の振込等)</line
+      ><line
+      ></line
+      ><line
+      >7. グノーシス主義について</line
+      ><line
+      >7a. グノーシス主義について調べる。学ぶ</line
+      ><line
+      ></line
+      ><line
+      >8. 心の整理</line
+      ><line
+      ></line
+      ><line
+      >X. その他、アイデア等</line
+      ><line
+      >Xa. todo を android から編集できるようにできたらいいな</line
+      ><line
+      >Xb. todo 等、暗号化して、個人的な予定も書き込めるようにしたい</line></contents></diary></diarys>
