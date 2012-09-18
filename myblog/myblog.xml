@@ -3,6 +3,45 @@
   ><diary
     ><tags
       ><uuidlen
+      >2</uuidlen
+      ><uuid
+      >dd98178e-f1e1-4b0c-bb7e-d9c207330a37</uuid
+      ><title
+      >myblog の使いかたの memo</title></tags
+    ><contents
+      ><line
+      >新しい記事の作成</line
+      ><line
+      >runhaskell myblog.hs new</line
+      ><line
+      >vi diary.txt</line
+      ><line
+      >runhaskell myblog.hs diary.txt </line
+      ><line
+      ></line
+      ><line
+      >既存の記事の編集</line
+      ><line
+      >runhaskell myblog.hs list</line
+      ><line
+      >runhaskell myblog.hs edit [number]</line
+      ><line
+      >vi diary.txt</line
+      ><line
+      >runhaskell myblog.hs diary.txt </line
+      ><line
+      ></line
+      ><line
+      >既存の記事の削除</line
+      ><line
+      >runhaskell myblog.hs list</line
+      ><line
+      >runhaskell myblog.hs remove [number]</line
+      ><line
+      >runhaskell myblog.hs diary.txt </line></contents></diary
+  ><diary
+    ><tags
+      ><uuidlen
       >1</uuidlen
       ><uuid
       >8c6855d4-05d0-4039-b0c1-0369ab0948a3</uuid
@@ -137,15 +176,4 @@
       ><line
       >できるが、クッキーの使いかたをまだ知らない。</line
       ><line
-      >調べる必要があるな。</line></contents></diary
-  ><diary
-    ><tags
-      ><uuidlen
-      >1</uuidlen
-      ><uuid
-      >14ddb3e1-85b5-4843-b2e0-98abf8e835a2</uuid
-      ><title
-      >はじめての投稿</title></tags
-    ><contents
-      ><line
-      >これは myblog を使ったはじめての投稿である。</line></contents></diary></diarys>
+      >調べる必要があるな。</line></contents></diary></diarys>
