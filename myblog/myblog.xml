@@ -3,6 +3,19 @@
   ><diary
     ><tags
       ><uuidlen
+      >1</uuidlen
+      ><uuid
+      >2076c2b2-f6ee-4534-8288-741a17e5b199</uuid
+      ><title
+      >DONE</title></tags
+    ><contents
+      ><line
+      >編集機能: それぞれの投稿に UUID をつけた</line
+      ><line
+      >削除機能</line></contents></diary
+  ><diary
+    ><tags
+      ><uuidlen
       >2</uuidlen
       ><uuid
       >dd98178e-f1e1-4b0c-bb7e-d9c207330a37</uuid
@@ -16,7 +29,9 @@
       ><line
       >vi diary.txt</line
       ><line
-      >runhaskell myblog.hs diary.txt </line
+      >runhaskell myblog.hs diary.txt &amp;&amp;</line
+      ><line
+      >yjftp-ni put myblog.html ftp37.nifty.com/homepage/myblog/ [my_account]</line
       ><line
       ></line
       ><line
@@ -28,7 +43,9 @@
       ><line
       >vi diary.txt</line
       ><line
-      >runhaskell myblog.hs diary.txt </line
+      >runhaskell myblog.hs diary.txt &amp;&amp;</line
+      ><line
+      >yjftp-ni put myblog.html ftp37.nifty.com/homepage/myblog/ [my_account]</line
       ><line
       ></line
       ><line
@@ -38,7 +55,9 @@
       ><line
       >runhaskell myblog.hs remove [number]</line
       ><line
-      >runhaskell myblog.hs diary.txt </line></contents></diary
+      >runhaskell myblog.hs diary.txt &amp;&amp;</line
+      ><line
+      >yjftp-ni put myblog.html ftp37.nifty.com/homepage/myblog/ [my_account]</line></contents></diary
   ><diary
     ><tags
       ><uuidlen
@@ -153,7 +172,7 @@
       ><uuid
       >9f818eff-9b5e-4aa4-838b-e67aaaba87c1</uuid
       ><title
-      >今後やることを書いてみる</title></tags
+      >TODO</title></tags
     ><contents
       ><line
       >まず、ぜひとも必要なのが投稿の編集機能だ。</line
@@ -176,4 +195,12 @@
       ><line
       >できるが、クッキーの使いかたをまだ知らない。</line
       ><line
-      >調べる必要があるな。</line></contents></diary></diarys>
+      >調べる必要があるな。</line
+      ><line
+      ></line
+      ><line
+      >記事の並べかえ機能が必要</line
+      ><line
+      >&amp;、&lt;、&gt;等を実体に変える必要がある</line
+      ><line
+      >まずは、実体をアンドマークを実体として xml に保存する機能をつけよう</line></contents></diary></diarys>
