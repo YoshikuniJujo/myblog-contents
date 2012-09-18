@@ -31,15 +31,29 @@ getTags = map fst . (tagged `x` extracted getText) children . head .
 	(childrenBy $ tag "tags")
 
 getContent :: Content i -> [String]
-getContent = map fst . extracted getText children . head .
-	childrenBy (tag "contents")
+getContent c = map fst $ concatMap (extracted getText children) $
+	childrenBy (tag "contents") c
 
 maybeHead :: [a] -> Maybe a
 maybeHead [] = Nothing
 maybeHead (h : _) = Just h
 
 getText :: Content i -> String
-getText = maybe "" (fromJust . fst) . maybeHead . textlabelled children
+-- getText = maybe "" (fromJust . fst) . maybeHead . textlabelled children
+getText = concatMap (maybe "bad" id . fst) . textreflabelled children
+
+textreflabelled :: CFilter i -> LabelFilter i (Maybe String)
+textreflabelled f = extracted textref f
+	where
+	textref (CString _ n _) = Just n
+	textref (CRef (RefEntity n) _) = Just $ "&" ++ n ++ ";"
+	textref _ = Nothing
+
+reflabelled :: CFilter i -> LabelFilter i (Maybe String)
+reflabelled f = extracted ref f
+	where
+	ref (CRef (RefEntity n) _) = Just n
+	text _ = Nothing
 
 topElem :: Document i -> Element i
 topElem (Document _ _ e _) = e
@@ -75,3 +89,5 @@ makeLines ls
 
 makeLine :: String -> Element i
 makeLine l = Elem (N "line") [] [CString False l undefined]
+
+-- makeLineList :: String -> [Elemen
