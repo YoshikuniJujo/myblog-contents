@@ -20,5 +20,8 @@ addUUID (tags, cnt) = do
 lookD :: String -> Diary -> String
 lookD t = look t . fst
 
-look :: Eq a => a -> [(a, b)] -> b
-look = (.) fromJust . lookup
+look :: (Show a, Eq a) => a -> [(a, b)] -> b
+-- look = (.) fromJust . lookup
+look x ps
+	| Just y <- lookup x ps = y
+	| otherwise = error $ "not key " ++ show x

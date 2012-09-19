@@ -14,6 +14,8 @@ main = do
 		("remove" : rargs) -> removeDiary bn rargs
 		("edit" : rargs) -> getDiary bn rargs
 		("new" : nargs) -> newDiary bn nargs
+		("move" : margs) -> moveDiary bn margs
+		("rewrite" : rargs) -> rewriteUuidlenIO bn
 		[fn] -> putDiary bn fn
 
 newDiary :: String -> [String] -> IO ()
@@ -58,7 +60,7 @@ removeDiary :: String -> [String] -> IO ()
 removeDiary blogName [u] = do
 	olds <- xmlfileToData $ blogName ++ ".xml"
 	let	new = deleteDiary u olds
-	makeXmlfile (blogName ++ ".xml") new
+	makeXmlfile (blogName ++ ".xml") $ rewriteUuidlen new
 	writeFile (blogName ++ ".html") $ makeHtml new
 
 deleteDiary :: String -> [Diary] -> [Diary]
@@ -80,6 +82,27 @@ getD u = gd . reverse
 	gd (d@(tags, cnt) : ds)
 		| checkUUID u d = (filter ((/= "uuidlen") . fst) tags, cnt)
 		| otherwise = gd ds
+
+rewriteUuidlenIO :: String -> IO ()
+rewriteUuidlenIO blogName = do
+	olds <- xmlfileToData $ blogName ++ ".xml"
+	makeXmlfile (blogName ++ ".xml") $ rewriteUuidlen olds
+
+rewriteUuidlen :: [Diary] -> [Diary]
+rewriteUuidlen ds
+	= foldr addNew [] $ map deleteUuidlen ds
+
+deleteUuidlen :: Diary -> Diary
+deleteUuidlen (tags, cnt) = (filter ((/= "uuidlen") . fst) tags, cnt)
+
+moveDiary :: String -> [String] -> IO ()
+moveDiary blogName [u, p] = do
+	olds <- xmlfileToData $ blogName ++ ".xml"
+	let	d = getD u olds
+		r = deleteDiary u olds
+		new = take (read p) r ++ [d] ++ drop (read p) r
+	makeXmlfile (blogName ++ ".xml") $ rewriteUuidlen new
+	writeFile (blogName ++ ".html") $ makeHtml new
 
 makeText :: Diary -> String
 makeText (tags, cnt) =
