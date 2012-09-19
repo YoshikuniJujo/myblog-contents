@@ -5,22 +5,9 @@
       ><uuidlen
       >1</uuidlen
       ><uuid
-      >2076c2b2-f6ee-4534-8288-741a17e5b199</uuid
-      ><title
-      >DONE</title></tags
-    ><contents
-      ><line
-      >編集機能: それぞれの投稿に UUID をつけた</line
-      ><line
-      >削除機能</line></contents></diary
-  ><diary
-    ><tags
-      ><uuidlen
-      >2</uuidlen
-      ><uuid
       >dd98178e-f1e1-4b0c-bb7e-d9c207330a37</uuid
       ><title
-      >myblog の使いかたの memo</title></tags
+      >USAGE</title></tags
     ><contents
       ><line
       >新しい記事の作成</line
@@ -55,9 +42,77 @@
       ><line
       >runhaskell myblog.hs remove [number]</line
       ><line
-      >runhaskell myblog.hs diary.txt &amp;&amp;</line
+      >yjftp-ni put myblog.html ftp37.nifty.com/homepage/myblog/ [my_account]</line
+      ><line
+      ></line
+      ><line
+      >既存の記事の移動</line
+      ><line
+      >runhaskell myblog.hs list</line
+      ><line
+      >runhaskell myblog.hs move [number] [position]</line
       ><line
       >yjftp-ni put myblog.html ftp37.nifty.com/homepage/myblog/ [my_account]</line></contents></diary
+  ><diary
+    ><tags
+      ><uuidlen
+      >1</uuidlen
+      ><uuid
+      >9f818eff-9b5e-4aa4-838b-e67aaaba87c1</uuid
+      ><title
+      >TODO</title></tags
+    ><contents
+      ><line
+      >&amp;、&lt;、&gt;等を実体に変えたい</line
+      ><line
+      >まずは、&amp;を実体として xml に保存する機能をつけよう</line
+      ><line
+      >例えば '.' を忘れたときに .xml が消えてしまわないようにする</line
+      ><line
+      >myblog を project にする</line
+      ><line
+      >yjftp-ni の機能も一緒にしてしまいたい</line
+      ><line
+      >blog の名前、distination、name を設定ファイルにまとめておく</line
+      ><line
+      >また使う editor も設定しておけば便利だ。</line
+      ><line
+      >使いかたとしてはたとえば</line
+      ><line
+      >myblog edit [number]</line
+      ><line
+      >(設定しておいた editor が立ち上がる)</line
+      ><line
+      >myblog push</line
+      ><line
+      >といった感じ</line
+      ><line
+      ></line
+      ><line
+      >アクセス情報を取得して、アクセス統計を出す機能もつけたい</line
+      ><line
+      >クッキーを使えば何人アクセスしたかを判断することが</line
+      ><line
+      >できるが、クッキーの使いかたをまだ知らない</line
+      ><line
+      >調べる必要がある</line></contents></diary
+  ><diary
+    ><tags
+      ><uuidlen
+      >1</uuidlen
+      ><uuid
+      >2076c2b2-f6ee-4534-8288-741a17e5b199</uuid
+      ><title
+      >DONE</title></tags
+    ><contents
+      ><line
+      >編集機能: それぞれの投稿に UUID をつけた</line
+      ><line
+      >削除機能</line
+      ><line
+      >記事の並べかえ機能</line
+      ><line
+      >--&gt; runhaskell myblog.hs move [記事の番号] [位置] という形</line></contents></diary
   ><diary
     ><tags
       ><uuidlen
@@ -96,7 +151,7 @@
   ><diary
     ><tags
       ><uuidlen
-      >2</uuidlen
+      >1</uuidlen
       ><uuid
       >1ac73309-4cad-4dac-8d75-78d2baf8813e</uuid
       ><title
@@ -110,34 +165,6 @@
       >アクセス解析機能をつけたい。</line
       ><line
       >また[イイネ]機能とかつけようかな。</line></contents></diary
-  ><diary
-    ><tags
-      ><uuidlen
-      >1</uuidlen
-      ><uuid
-      >d4c1841c-615e-460a-817c-ead2465c054c</uuid
-      ><title
-      >次にやること</title></tags
-    ><contents
-      ><line
-      >編集機能をつけるのだが、そのためにはまず、</line
-      ><line
-      >uuid を指定して、txt file を入手できるようにする必要がある。</line></contents></diary
-  ><diary
-    ><tags
-      ><uuidlen
-      >1</uuidlen
-      ><uuid
-      >cd1b096a-fd83-492e-8851-0fef5b5792d9</uuid
-      ><title
-      >書き込みと削除</title></tags
-    ><contents
-      ><line
-      >書き込みと削除のテスト</line
-      ><line
-      >また、メモとして、例えば '.' を忘れたときに .xml が消えて</line
-      ><line
-      >しまわないようにする。</line></contents></diary
   ><diary
     ><tags
       ><uuidlen
@@ -164,43 +191,4 @@
       ><line
       >また、存在しない uuid タグをつけた投稿はエラーとする。</line
       ><line
-      >削除もまた UUID で指定すれば良い。</line></contents></diary
-  ><diary
-    ><tags
-      ><uuidlen
-      >1</uuidlen
-      ><uuid
-      >9f818eff-9b5e-4aa4-838b-e67aaaba87c1</uuid
-      ><title
-      >TODO</title></tags
-    ><contents
-      ><line
-      >まず、ぜひとも必要なのが投稿の編集機能だ。</line
-      ><line
-      >これは、それぞれの投稿に ID をつけるところから始める必要が</line
-      ><line
-      >ある。</line
-      ><line
-      >UUID でもつけておこうか。</line
-      ><line
-      >また、削除機能もつけよう。</line
-      ><line
-      ></line
-      ><line
-      >それと、また別の話題であるが、アクセス情報を取得して、</line
-      ><line
-      >アクセス統計を出す機能もつけたい。</line
-      ><line
-      >クッキーを使えば何人アクセスしたかを判断することが</line
-      ><line
-      >できるが、クッキーの使いかたをまだ知らない。</line
-      ><line
-      >調べる必要があるな。</line
-      ><line
-      ></line
-      ><line
-      >記事の並べかえ機能が必要</line
-      ><line
-      >&amp;、&lt;、&gt;等を実体に変える必要がある</line
-      ><line
-      >まずは、実体をアンドマークを実体として xml に保存する機能をつけよう</line></contents></diary></diarys>
+      >削除もまた UUID で指定すれば良い。</line></contents></diary></diarys>
