@@ -1,0 +1,5 @@
+editor: yavie
+server: ftp37.nifty.com
+directory: /homepage/myblog/
+account: hc751476
+.
