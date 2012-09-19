@@ -1,10 +1,10 @@
-import XMLFile
-import MakeHtml
-import MyblogParser
-import Processing
-import System.Environment
-import Data.List
-import System.IO
+import XMLFile(xmlfileToData, makeXmlfile)
+import MakeHtml(makeHtml)
+import MyblogParser(parseInputText)
+import Processing(addUUID, Diary, lookD)
+import System.Environment(getProgName, getArgs)
+import Data.List(isPrefixOf)
+import System.IO(hFlush, stdout)
 
 main = do
 	bn <- takeWhile (/= '.') `fmap` getProgName
