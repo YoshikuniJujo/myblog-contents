@@ -5,65 +5,80 @@
       ><uuidlen
       >1</uuidlen
       ><uuid
-      >3eeaada7-abf9-43f8-9a5b-aa6cb4ede59a</uuid
-      ><title
-      >新しくなった</title></tags
-    ><contents
-      ><line
-      >mypage という package を作った。</line></contents></diary
-  ><diary
-    ><tags
-      ><uuidlen
-      >1</uuidlen
-      ><uuid
       >dd98178e-f1e1-4b0c-bb7e-d9c207330a37</uuid
       ><title
       >USAGE</title></tags
     ><contents
       ><line
+      >新しいブログディレクトリの作成</line
+      ><line
+      >config.txt:</line
+      ><line
+      >editor: yavie</line
+      ><line
+      >server: ftp37.nifty.com</line
+      ><line
+      >directory: /homepage/myblog/</line
+      ><line
+      >account: [my_account]</line
+      ><line
+      >\.</line
+      ><line
+      ></line
+      ><line
+      >footer.txt:</line
+      ><line
+      >&lt;p&gt;...&lt;/p&gt;</line
+      ><line
+      >&lt;p&gt;...&lt;/p&gt;</line
+      ><line
+      >etc.</line
+      ><line
+      ></line
+      ><line
+      >新しいブログの作成</line
+      ><line
+      >newblog.xml:</line
+      ><line
+      >&lt;top/&gt;</line
+      ><line
+      ></line
+      ><line
       >新しい記事の作成</line
       ><line
-      >runhaskell myblog.hs new</line
+      >mypage myblog new</line
       ><line
-      >vi diary.txt</line
-      ><line
-      >runhaskell myblog.hs diary.txt &amp;&amp;</line
-      ><line
-      >yjftp-ni put myblog.html ftp37.nifty.com/homepage/myblog/ [my_account]</line
+      >mypage myblog upload</line
       ><line
       ></line
       ><line
       >既存の記事の編集</line
       ><line
-      >runhaskell myblog.hs list</line
+      >mypage myblog list</line
       ><line
-      >runhaskell myblog.hs edit [number]</line
+      >mypage myblog edit [number]</line
       ><line
-      >vi diary.txt</line
-      ><line
-      >runhaskell myblog.hs diary.txt &amp;&amp;</line
-      ><line
-      >yjftp-ni put myblog.html ftp37.nifty.com/homepage/myblog/ [my_account]</line
+      >mypage myblog upload</line
       ><line
       ></line
       ><line
       >既存の記事の削除</line
       ><line
-      >runhaskell myblog.hs list</line
+      >mypage myblog list</line
       ><line
-      >runhaskell myblog.hs remove [number]</line
+      >mypage myblog remove [number]</line
       ><line
-      >yjftp-ni put myblog.html ftp37.nifty.com/homepage/myblog/ [my_account]</line
+      >mypage myblog upload</line
       ><line
       ></line
       ><line
       >既存の記事の移動</line
       ><line
-      >runhaskell myblog.hs list</line
+      >mypage myblog list</line
       ><line
-      >runhaskell myblog.hs move [number] [position]</line
+      >mypage myblog move [number] [position]</line
       ><line
-      >yjftp-ni put myblog.html ftp37.nifty.com/homepage/myblog/ [my_account]</line></contents></diary
+      >mypage myblog upload</line></contents></diary
   ><diary
     ><tags
       ><uuidlen
