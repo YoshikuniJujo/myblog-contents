@@ -1,0 +1,169 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<diarys
+  ><diary
+    ><tags
+      ><uuidlen
+      >1</uuidlen
+      ><uuid
+      >145ed080-7432-4a16-a077-9f5469ab4ff9</uuid
+      ><title
+      >Name</title></tags
+    ><contents
+      ><line
+      >lojysamban</line></contents></diary
+  ><diary
+    ><tags
+      ><uuidlen
+      >2</uuidlen
+      ><uuid
+      >feeca56d-22bb-4a6f-8604-69d869d99537</uuid
+      ><title
+      >What's this</title></tags
+    ><contents
+      ><line
+      >This is Prolog like programming language.</line
+      ><line
+      >It's grammer is subset of lojban.</line></contents></diary
+  ><diary
+    ><tags
+      ><uuidlen
+      >2</uuidlen
+      ><uuid
+      >e5b3f931-c59e-47ac-86d1-a9612689bbcf</uuid
+      ><title
+      >Usage</title></tags
+    ><contents
+      ><line
+      >% lojysamban FILEPATH</line
+      ><line
+      > .i (ENTER QUESTION)</line
+      ><line
+      ></line
+      ><line
+      >or</line
+      ><line
+      ></line
+      ><line
+      >Drug .jbo file to lojysamban icon (Windows)</line
+      ><line
+      > .i (ENTER QUESTION)</line></contents></diary
+  ><diary
+    ><tags
+      ><uuidlen
+      >1</uuidlen
+      ><uuid
+      >005d878f-bbdc-4060-b1bf-601505dbaa7a</uuid
+      ><title
+      >Windows Binary</title
+      ><link
+      >lojysamban.exe,files/exe/lojysamban.exe</link></tags
+    ><contents
+      ><line
+      >Please save.</line></contents></diary
+  ><diary
+    ><tags
+      ><uuidlen
+      >2</uuidlen
+      ><uuid
+      >e06e38f4-0f20-45b4-9646-6ea3a61670c6</uuid
+      ><title
+      >Install in Gentoo Linux</title></tags
+    ><contents
+      ><line
+      >% sudoedit /etc/layman/layman.cfg</line
+      ><line
+      > ...</line
+      ><line
+      >overlays: http://www.gentoo.org/proj/en/overlays/repositiories.xml http://raw.github.com/YoshikuniJujo/yj_ebuilds/master/overlays.xml</line
+      ><line
+      > ...</line
+      ><line
+      >% sudo layman -L</line
+      ><line
+      >% sudo layman -a YoshikuniJujo</line
+      ><line
+      >% sudo emerge -av lojysamban</line></contents></diary
+  ><diary
+    ><tags
+      ><uuidlen
+      >1</uuidlen
+      ><uuid
+      >e41b82cb-fd2e-4c7c-ab6e-252b8a934a57</uuid
+      ><title
+      >Install by Haskell Platform</title
+      ><link
+      >hackage,http://hackage.haskell.org/package/lojysamban</link></tags
+    ><contents
+      ><line
+      >cabal install lojysamban</line></contents></diary
+  ><diary
+    ><tags
+      ><uuidlen
+      >1</uuidlen
+      ><uuid
+      >912d908d-28f3-4826-9f55-728b1342a285</uuid
+      ><title
+      >Repository</title
+      ><link
+      >github,https://github.com/YoshikuniJujo/lojysamban.git</link></tags
+    ><contents
+      ><line
+      >git clone git://github.com/YoshikuniJujo/lojysamban.git</line></contents></diary
+  ><diary
+    ><tags
+      ><uuidlen
+      >1</uuidlen
+      ><uuid
+      >da53c416-7e7c-4024-8745-6333f18a1e47</uuid
+      ><title
+      >Example1</title
+      ><link
+      >pendo.jbo, files/jbo/pendo.jbo</link></tags
+    ><contents
+      ><line
+      >% cat pendo.jbo</line
+      ><line
+      ></line
+      ><line
+      > .i do du do</line
+      ><line
+      ></line
+      ><line
+      > .i la ualeis. cu nelci lo cirla</line
+      ><line
+      > .i la gromit. cu nelci lo cirla</line
+      ><line
+      > .i la uendolen. cu nelci lo lanme</line
+      ><line
+      ></line
+      ><line
+      > .i da pendo de .ijanai tu'e da nadu de .i da nelci di .i de nelci di</line
+      ><line
+      ></line
+      ><line
+      >% lojysamban pendo.jbo</line
+      ><line
+      ></line
+      ><line
+      > .i la gromit. cu pendo la .ualeis.</line
+      ><line
+      > .i go'i</line
+      ><line
+      > .i la gromit. cu pendo ma</line
+      ><line
+      > .i la ualeis.</line
+      ><line
+      > .i co'o</line></contents></diary
+  ><diary
+    ><tags
+      ><uuidlen
+      >1</uuidlen
+      ><uuid
+      >f1f9c64f-d75c-4b93-8f99-4f8658ce1f7b</uuid
+      ><title
+      >Author</title></tags
+    ><contents
+      ><line
+      > .iocikun.juj.</line
+      ><line
+      >PAF01143[AT]nifty.ne.jp</line></contents></diary></diarys>
