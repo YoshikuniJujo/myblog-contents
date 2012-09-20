@@ -23,7 +23,9 @@
       ><line
       >This is Prolog like programming language.</line
       ><line
-      >It's grammer is subset of lojban.</line></contents></diary
+      >It's grammer is subset of lojban.</line
+      ><line
+      >This is alpha version.</line></contents></diary
   ><diary
     ><tags
       ><uuidlen
@@ -44,7 +46,7 @@
       ><line
       ></line
       ><line
-      >Drug .jbo file to lojysamban icon (Windows)</line
+      >Drug file to lojysamban icon (Windows)</line
       ><line
       > .i (ENTER QUESTION)</line
       ><line
@@ -85,7 +87,21 @@
       >Windows Binary</title
       ><link
       >lojysamban-0.0.7.exe,files/exe/lojysamban-0.0.7.exe</link></tags
-    ><contents/></diary
+    ><contents
+      ><line
+      >Download and try following example.</line
+      ><line
+      ></line
+      ><line
+      > .i la .iocikun. cu patfu la .ituk.</line
+      ><line
+      >fa'o</line
+      ><line
+      > .i ma patfu la .ituk.</line
+      ><line
+      > .i la iocikun</line
+      ><line
+      > .i co'o</line></contents></diary
   ><diary
     ><tags
       ><uuidlen
@@ -151,19 +167,25 @@
       ><line
       ></line
       ><line
-      > .i do du do</line
+      > .i da du da</line
       ><line
       ></line
       ><line
-      > .i la ualeis. cu nelci lo cirla</line
+      > .i la .ualeis. cu nelci lo cirla</line
       ><line
       > .i la gromit. cu nelci lo cirla</line
       ><line
-      > .i la uendolen. cu nelci lo lanme</line
+      > .i la .uendolen. cu nelci lo lanme</line
       ><line
       ></line
       ><line
-      > .i da pendo de .ijanai tu'e da nadu de .i da nelci di .i de nelci di</line
+      > .i da pendo de .ijanai tu'e</line
+      ><line
+      >	da nadu de .i</line
+      ><line
+      >	da nelci di .i</line
+      ><line
+      >	de nelci di</line
       ><line
       ></line
       ><line
@@ -180,6 +202,51 @@
       > .i la ualeis.</line
       ><line
       > .i co'o</line></contents></diary
+  ><diary
+    ><tags
+      ><uuidlen
+      >1</uuidlen
+      ><uuid
+      >54443fc0-cd93-462c-a8bc-1d5235ac9c83</uuid
+      ><title
+      >Example2</title
+      ><link
+      >patfu.jbo,files/jbo/patfu.jbo</link></tags
+    ><contents
+      ><line
+      >% cat patfu.jbo</line
+      ><line
+      ></line
+      ><line
+      > .i la zeb. cu patfu la jon.bois.sr.</line
+      ><line
+      > .i la jon.bois.sr. cu patfu la jon.bois.jr.</line
+      ><line
+      ></line
+      ><line
+      > .i da dzena de .ijanai tu'e</line
+      ><line
+      >	da patfu de</line
+      ><line
+      > tu'u</line
+      ><line
+      ></line
+      ><line
+      > .i da dzena de .ijanai tu'e</line
+      ><line
+      >	da patfu di .i</line
+      ><line
+      >	di dzena de</line
+      ><line
+      ></line
+      ><line
+      >% lojysamban patfu.jbo</line
+      ><line
+      ></line
+      ><line
+      > .i ma dzena la jon.bois.jr.</line
+      ><line
+      > .i la jon.bois.sr .a la zeb</line></contents></diary
   ><diary
     ><tags
       ><uuidlen
