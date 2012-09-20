@@ -3,7 +3,7 @@ banli ke kamprije je mulno seltcidu
 (偉大な知恵である完成したものの読み物である)
 
 観自在菩薩 行深般若波羅蜜多時
-ni'o la visyzifybujyzu'e ca lo nu gunka fi lo kamprije je mulno kei
+ni'o la visyzifybujyzu'e ca lonu gunka fi lo kamprije je mulno kei
 ("見る自由の仏教の行為者"は知恵である完成したもののために働いていたところ)
 
 照見五蘊皆空 度一切苦厄
@@ -63,7 +63,7 @@ ni'o doi la nebyplovoicpi selmamta
 (目、耳、鼻、舌、体、心に関するものは存在しない)
 
 無色声香味触法
-.i lo jvinu .e lo sance .e lo panci .e lo cpina .e lo ganse .e lo selsanji na zasti
+.i lo jvinu .e lo sance .e lo panci .e lo vrusi .e lo ganse .e lo selsanji na zasti
 (見えるもの、音、匂い、味、触感、意識するものは存在しない)
 
 無眼界乃至無意識界
@@ -95,19 +95,19 @@ ni'o lo budjo zukte zo'u
 (仏教の行為者については)
 
 依般若波羅蜜多故
-ni'i lo nu pilno lo kamprije je mulno kei
+ni'i lonu pilno lo kamprije je mulno kei
 (知恵という完成を使うことにより)
 
 心無罣礙
-lo fanta be tu'a lo cnise'i na zasti
+na fanta tu'a lo cnise'i
 (心に関する妨げがない)
 
 無罣礙故
-.ije ni'i lo nu lo fanta na zasti kei
+.ije ni'i lonu na fanta kei
 (妨げがないから)
 
 無有恐怖
-lo nunterpa na zasti
+na terpa
 (恐れることがない)
 
 遠離一切顛倒夢想
@@ -123,7 +123,7 @@ gi'e snada lo cnipanpi
 (すべての過去か現在か未来の仏教の神は)
 
 依般若波羅蜜多故
-ni'i lo nu pilno lo kamprije je mulno kei
+ni'i lonu pilno lo kamprije je mulno kei
 (知恵という完成を使うことの論理的帰結として)
 
 得阿耨多羅三藐三菩提
@@ -147,7 +147,7 @@ ni'o djuno .ei la'edi'e lo kamprije je mulno
 (それはすべての悪い経験を取り去ってくれて、真であり偽ではない)
 
 故説般若波羅蜜多呪
-.i mu'i lo nu cusku fi'o bacru lo kamprije je mulno selba'u kei
+.i mu'i lonu cusku fi'o bacru lo kamprije je mulno selba'u kei
 (知恵である完成の音声は声に出され話されているので、)
 
 即説呪曰
