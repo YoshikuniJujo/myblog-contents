@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<diarys
+  ><diary
+    ><tags
+      ><uuidlen
+      >1</uuidlen
+      ><uuid
+      >e91f5c8b-2be5-455c-a95f-0d0d69be21b1</uuid
+      ><title
+      >Name</title></tags
+    ><contents
+      ><line
+      >cakyrespa</line></contents></diary
+  ><diary
+    ><tags
+      ><uuidlen
+      >2</uuidlen
+      ><uuid
+      >9a19a104-b350-48d2-9c93-3f37d1f1c4e2</uuid
+      ><title
+      >What's this</title></tags
+    ><contents
+      ><line
+      >LOGO Turtle run.</line
+      ><line
+      >You can talk to turtle with lojban.</line
+      ><line
+      >This is alpha version.</line></contents></diary
+  ><diary
+    ><tags
+      ><uuidlen
+      >1</uuidlen
+      ><uuid
+      >28d712f3-19ed-47ec-9902-176f078398da</uuid
+      ><title
+      >Windows Binary</title
+      ><link
+      >cakyrespa-0.0.3.exe,files/exe/cakyrespa-0.0.3.exe</link
+      ><link
+      >glut32.dll,files/exe/glut32.dll</link></tags
+    ><contents
+      ><line
+      >Download two files and move to same folder.</line
+      ><line
+      >And run cakyrespa-0.0.3.exe.</line
+      ><line
+      >You can finish the program by input ".i co'o".</line></contents></diary
+  ><diary
+    ><tags
+      ><uuidlen
+      >1</uuidlen
+      ><uuid
+      >b8e427d3-5ad6-4df7-b6fc-b4593af94092</uuid
+      ><title
+      >Install in Gentoo Linux</title></tags
+    ><contents
+      ><line
+      >% sudoedit /etc/layman/layman.cfg</line
+      ><line
+      > ...</line
+      ><line
+      >overlays: http://www.gentoo.org/proj/en/overlays/repositories.xml http://raw.github.com/YoshikuniJujo/yj_ebuilds/master/overlays.xml</line
+      ><line
+      > ...</line
+      ><line
+      >% sudo layman -L</line
+      ><line
+      >% sudo layman -a YoshikuniJujo</line
+      ><line
+      >% sudo emerge -av cakyrespa</line></contents></diary
+  ><diary
+    ><tags
+      ><uuidlen
+      >1</uuidlen
+      ><uuid
+      >3de7231b-022b-49bb-b064-6a7c20bcbc49</uuid
+      ><title
+      >Install by Haskell Platform</title
+      ><link
+      >hackage,http://hackage.haskell.org/package/cakyrespa</link></tags
+    ><contents
+      ><line
+      >% cabal update</line
+      ><line
+      >% cabal install cakyrespa</line></contents></diary
+  ><diary
+    ><tags
+      ><uuidlen
+      >1</uuidlen
+      ><uuid
+      >9c7c41ed-5690-4b19-8691-acae144b29ea</uuid
+      ><title
+      >Repository</title
+      ><link
+      >github,https://github.com/YoshikuniJujo/cakyrespa</link></tags
+    ><contents
+      ><line
+      >git clone git://github.com/YoshikuniJujo/cakyrespa.git</line></contents></diary></diarys>
