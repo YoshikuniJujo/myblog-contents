@@ -3,7 +3,7 @@
   ><diary
     ><tags
       ><uuidlen
-      >1</uuidlen
+      >2</uuidlen
       ><uuid
       >e91f5c8b-2be5-455c-a95f-0d0d69be21b1</uuid
       ><title
@@ -71,7 +71,7 @@
   ><diary
     ><tags
       ><uuidlen
-      >1</uuidlen
+      >2</uuidlen
       ><uuid
       >3de7231b-022b-49bb-b064-6a7c20bcbc49</uuid
       ><title
@@ -86,7 +86,7 @@
   ><diary
     ><tags
       ><uuidlen
-      >1</uuidlen
+      >2</uuidlen
       ><uuid
       >9c7c41ed-5690-4b19-8691-acae144b29ea</uuid
       ><title
@@ -95,4 +95,240 @@
       >github,https://github.com/YoshikuniJujo/cakyrespa</link></tags
     ><contents
       ><line
-      >git clone git://github.com/YoshikuniJujo/cakyrespa.git</line></contents></diary></diarys>
+      >git clone git://github.com/YoshikuniJujo/cakyrespa.git</line></contents></diary
+  ><diary
+    ><tags
+      ><uuidlen
+      >1</uuidlen
+      ><uuid
+      >57e59439-f3e3-4c62-b489-c85b245ce5f1</uuid
+      ><title
+      >Run 1</title></tags
+    ><contents
+      ><line
+      >Please enter following commands.</line
+      ><line
+      ></line
+      ><line
+      > .i ko crakla</line
+      ><line
+      > .i ko carna</line
+      ><line
+      > .i ko crakla</line
+      ><line
+      > .i ko carna</line
+      ><line
+      > .i ko crakla</line
+      ><line
+      > .i ko carna</line
+      ><line
+      > .i ko crakla</line
+      ><line
+      > .i ko carna</line
+      ><line
+      > .i co'o</line></contents></diary
+  ><diary
+    ><tags
+      ><uuidlen
+      >1</uuidlen
+      ><uuid
+      >11ab825e-873d-4b5c-b33e-6ad5312faaf7</uuid
+      ><title
+      >Run 2</title></tags
+    ><contents
+      ><line
+      > .i ko crakla la'u li cinono</line
+      ><line
+      > .i ko carna la'u li pareno</line
+      ><line
+      > .i ko crakla la'u li cinono</line
+      ><line
+      > .i ko carna la'u li pareno</line
+      ><line
+      > .i ko crakla la'u li cinono</line
+      ><line
+      > .i ko carna la'u li pareno</line
+      ><line
+      > .i co'o</line></contents></diary
+  ><diary
+    ><tags
+      ><uuidlen
+      >1</uuidlen
+      ><uuid
+      >e3b339fd-43de-4eb8-a2fb-456c98ee4bd1</uuid
+      ><title
+      >Run 3</title></tags
+    ><contents
+      ><line
+      > .i ko rixykla</line
+      ><line
+      > .i ko carna fi lo pritu</line
+      ><line
+      > .i ko rixykla</line
+      ><line
+      > .i ko carna fi lo pritu</line
+      ><line
+      > .i ko rixykla</line
+      ><line
+      > .i ko carna fi lo pritu</line
+      ><line
+      > .i ko rixykla</line
+      ><line
+      > .i ko carna fi lo pritu</line
+      ><line
+      > .i co'o</line></contents></diary
+  ><diary
+    ><tags
+      ><uuidlen
+      >2</uuidlen
+      ><uuid
+      >9d618fd1-f2e4-4e2f-a407-44e7078f42af</uuid
+      ><title
+      >Run 4</title></tags
+    ><contents
+      ><line
+      > .i ko crakla</line
+      ><line
+      > .i ko carna fi lo pritu la'u li pareno</line
+      ><line
+      > .i ko crakla</line
+      ><line
+      > .i ko carna fi lo pritu la'u li pareno</line
+      ><line
+      > .i ko crakla</line
+      ><line
+      > .i ko carna fi lo pritu la'u li pareno</line
+      ><line
+      > .i co'o</line></contents></diary
+  ><diary
+    ><tags
+      ><uuidlen
+      >1</uuidlen
+      ><uuid
+      >d9450ca9-6b5b-4d3c-b533-89092115f429</uuid
+      ><title
+      >Run 5</title></tags
+    ><contents
+      ><line
+      > .i ko co'a clugau</line
+      ><line
+      > .i ko crakla</line
+      ><line
+      > .i ko carna</line
+      ><line
+      > .i ko crakla</line
+      ><line
+      > .i ko carna</line
+      ><line
+      > .i ko crakla</line
+      ><line
+      > .i ko carna</line
+      ><line
+      > .i ko co'u clugau</line
+      ><line
+      > .i co'o</line></contents></diary
+  ><diary
+    ><tags
+      ><uuidlen
+      >1</uuidlen
+      ><uuid
+      >cc898b95-e0ca-4ace-adac-8584ad349394</uuid
+      ><title
+      >Run 6</title></tags
+    ><contents
+      ><line
+      > .i ko pilno lo penbi poi xunre</line
+      ><line
+      > .i ko crakla</line
+      ><line
+      > .i ko carna</line
+      ><line
+      > .i ko pilno lo penbi poi crino</line
+      ><line
+      > .i ko crakla</line
+      ><line
+      > .i ko carna</line
+      ><line
+      > .i ko pilno lo penbi poi blanu</line
+      ><line
+      > .i ko crakla</line
+      ><line
+      > .i ko carna</line
+      ><line
+      > .i ko pilno lo penbi poi pelxu</line
+      ><line
+      > .i ko crakla</line
+      ><line
+      > .i ko carna</line
+      ><line
+      > .i co'o</line></contents></diary
+  ><diary
+    ><tags
+      ><uuidlen
+      >1</uuidlen
+      ><uuid
+      >316b6008-9083-4cdc-aedd-7112c5914672</uuid
+      ><title
+      >Run 7</title></tags
+    ><contents
+      ><line
+      > .i ko pilno lo penbi poi li vo cisni</line
+      ><line
+      > .i ko crakla</line
+      ><line
+      > .i ko carna</line
+      ><line
+      > .i ko pilno lo penbi poi li bi cisni</line
+      ><line
+      > .i ko crakla</line
+      ><line
+      > .i ko carna</line
+      ><line
+      > .i ko pilno lo penbi poi li pare cisni</line
+      ><line
+      > .i ko crakla</line
+      ><line
+      > .i ko carna</line
+      ><line
+      > .i ko pilno lo penbi poi li paxa cisni</line
+      ><line
+      > .i ko crakla</line
+      ><line
+      > .i ko carna</line
+      ><line
+      > .i ko pilno lo penbi poi li pa cisni</line
+      ><line
+      > .i ko rixykla</line
+      ><line
+      > .i co'o</line></contents></diary
+  ><diary
+    ><tags
+      ><uuidlen
+      >1</uuidlen
+      ><uuid
+      >97a5d8b4-1897-43ec-ba6f-71718f86bd15</uuid
+      ><title
+      >Run 8</title></tags
+    ><contents
+      ><line
+      > .i ko pilno lo burcu poi pelxu</line
+      ><line
+      > .i ko pilno lo penbi poi blanu</line
+      ><line
+      > .i ko co'a clugau</line
+      ><line
+      > .i ko crakla</line
+      ><line
+      > .i ko carna</line
+      ><line
+      > .i ko crakla</line
+      ><line
+      > .i ko carna</line
+      ><line
+      > .i ko crakla</line
+      ><line
+      > .i ko carna</line
+      ><line
+      > .i ko co'u clugau</line
+      ><line
+      > .i co'o</line></contents></diary></diarys>
