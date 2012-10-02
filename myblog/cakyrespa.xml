@@ -35,7 +35,7 @@
       ><title
       >Windows Binary</title
       ><link
-      >cakyrespa-0.0.3.exe,files/exe/cakyrespa-0.0.3.exe</link
+      >cakyrespa-0.0.5.exe,files/exe/cakyrespa-0.0.5.exe</link
       ><link
       >glut32.dll,files/exe/glut32.dll</link></tags
     ><contents
@@ -48,7 +48,7 @@
   ><diary
     ><tags
       ><uuidlen
-      >1</uuidlen
+      >2</uuidlen
       ><uuid
       >b8e427d3-5ad6-4df7-b6fc-b4593af94092</uuid
       ><title
@@ -130,6 +130,17 @@
   ><diary
     ><tags
       ><uuidlen
+      >2</uuidlen
+      ><uuid
+      >b0f10e48-1829-42c7-a194-3edd60be9f7f</uuid
+      ><title
+      >Run 1.5</title></tags
+    ><contents
+      ><line
+      > .i lonu ko bagi crakla gi carna cu rapli livo</line></contents></diary
+  ><diary
+    ><tags
+      ><uuidlen
       >1</uuidlen
       ><uuid
       >11ab825e-873d-4b5c-b33e-6ad5312faaf7</uuid
@@ -150,6 +161,17 @@
       > .i ko carna la'u li pareno</line
       ><line
       > .i co'o</line></contents></diary
+  ><diary
+    ><tags
+      ><uuidlen
+      >1</uuidlen
+      ><uuid
+      >bee4ea2a-96b2-44f1-a190-e2567b5765a5</uuid
+      ><title
+      >Run 2.5</title></tags
+    ><contents
+      ><line
+      > .i lonu ko bagi crakla la'u licinono gi carna la'u lipareno cu rapli li ci</line></contents></diary
   ><diary
     ><tags
       ><uuidlen
@@ -182,6 +204,17 @@
       ><uuidlen
       >2</uuidlen
       ><uuid
+      >3486a17c-f09f-44c3-be38-50656f14bc77</uuid
+      ><title
+      >Run 3.5</title></tags
+    ><contents
+      ><line
+      > .i lonu ko bagi rixykla gi carna fi lo pritu cu rapli li vo</line></contents></diary
+  ><diary
+    ><tags
+      ><uuidlen
+      >2</uuidlen
+      ><uuid
       >9d618fd1-f2e4-4e2f-a407-44e7078f42af</uuid
       ><title
       >Run 4</title></tags
@@ -200,6 +233,17 @@
       > .i ko carna fi lo pritu la'u li pareno</line
       ><line
       > .i co'o</line></contents></diary
+  ><diary
+    ><tags
+      ><uuidlen
+      >1</uuidlen
+      ><uuid
+      >a159d356-4ea5-4a61-8080-ce3b3d986b01</uuid
+      ><title
+      >Run 4.5</title></tags
+    ><contents
+      ><line
+      > .i lonu ko bagi crakla gi carna fi lo pritu la'u lipareno cu rapli lici</line></contents></diary
   ><diary
     ><tags
       ><uuidlen
@@ -227,6 +271,17 @@
       > .i ko co'u clugau</line
       ><line
       > .i co'o</line></contents></diary
+  ><diary
+    ><tags
+      ><uuidlen
+      >1</uuidlen
+      ><uuid
+      >f673eb33-8846-46d8-84ee-afb76616d618</uuid
+      ><title
+      >Run 5.5</title></tags
+    ><contents
+      ><line
+      > .i bagi ko co'a clugau gi bagi lonu ko bagi crakla gi carna cu rapli livo gi ko co'u clugau</line></contents></diary
   ><diary
     ><tags
       ><uuidlen
@@ -262,6 +317,17 @@
       > .i ko carna</line
       ><line
       > .i co'o</line></contents></diary
+  ><diary
+    ><tags
+      ><uuidlen
+      >1</uuidlen
+      ><uuid
+      >86dc67ea-1b2c-45f2-aa12-3b8e046b52d0</uuid
+      ><title
+      >Run 6.5</title></tags
+    ><contents
+      ><line
+      > ...</line></contents></diary
   ><diary
     ><tags
       ><uuidlen
@@ -304,6 +370,17 @@
   ><diary
     ><tags
       ><uuidlen
+      >2</uuidlen
+      ><uuid
+      >466edb8e-9c9f-4d03-8e6d-c5e9a95f098f</uuid
+      ><title
+      >Run 7.5</title></tags
+    ><contents
+      ><line
+      > ...</line></contents></diary
+  ><diary
+    ><tags
+      ><uuidlen
       >1</uuidlen
       ><uuid
       >97a5d8b4-1897-43ec-ba6f-71718f86bd15</uuid
@@ -331,4 +408,19 @@
       ><line
       > .i ko co'u clugau</line
       ><line
-      > .i co'o</line></contents></diary></diarys>
+      > .i co'o</line></contents></diary
+  ><diary
+    ><tags
+      ><uuidlen
+      >1</uuidlen
+      ><uuid
+      >47094ccb-86c7-4e4d-9a6a-7d4239498ce6</uuid
+      ><title
+      >Run 8.5</title></tags
+    ><contents
+      ><line
+      > .i ko pilno lo burcu poi pelxu</line
+      ><line
+      > .i ko pilno lo penbi poi blanu</line
+      ><line
+      > .i bagi ko co'a clugau gi bagi lonu ko bagi crakla gi carna cu rapli livo gi ko co'u clugau</line></contents></diary></diarys>
