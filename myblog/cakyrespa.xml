@@ -35,14 +35,14 @@
       ><title
       >Windows Binary</title
       ><link
-      >cakyrespa-0.0.9.exe,files/exe/cakyrespa-0.0.9.exe</link
+      >cakyrespa-0.0.14.exe,files/exe/cakyrespa-0.0.14.exe</link
       ><link
       >glut32.dll,files/exe/glut32.dll</link></tags
     ><contents
       ><line
       >Download two files and move to same folder.</line
       ><line
-      >And run cakyrespa-0.0.9.exe.</line
+      >And run cakyrespa-0.0.14.exe.</line
       ><line
       >You can finish the program by input ".i co'o".</line></contents></diary
   ><diary
@@ -274,7 +274,7 @@
   ><diary
     ><tags
       ><uuidlen
-      >1</uuidlen
+      >2</uuidlen
       ><uuid
       >f673eb33-8846-46d8-84ee-afb76616d618</uuid
       ><title
@@ -516,4 +516,27 @@
       ><line
       > .i ko tcidu la me zoi py. picture.ckr .py.</line
       ><line
-      > .i ko rejgau me'e zoi py. picture.svg .py. setai la syvygyd.</line></contents></diary></diarys>
+      > .i ko rejgau me'e zoi py. picture.svg .py. setai la syvygyd.</line></contents></diary
+  ><diary
+    ><tags
+      ><uuidlen
+      >1</uuidlen
+      ><uuid
+      >fe5a01dc-00a4-4b8b-9b6b-f6a593a8eaf9</uuid
+      ><title
+      >Run 12</title></tags
+    ><contents
+      ><line
+      > .i ko co'a clugau</line
+      ><line
+      > .i ko klama li jo'i panono boi renono</line
+      ><line
+      > .i ko klama li jo'i ni'u renono boi panono</line
+      ><line
+      > .i ko klama li jo'i ni'u panono boi ni'u panono</line
+      ><line
+      > .i ko klama li jo'i cinono boi ni'u muno</line
+      ><line
+      > .i ko klama li jo'i no boi no</line
+      ><line
+      > .i ko co'u clugau</line></contents></diary></diarys>
