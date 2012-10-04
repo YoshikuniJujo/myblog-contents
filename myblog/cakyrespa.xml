@@ -524,7 +524,7 @@
   ><diary
     ><tags
       ><uuidlen
-      >1</uuidlen
+      >2</uuidlen
       ><uuid
       >fe5a01dc-00a4-4b8b-9b6b-f6a593a8eaf9</uuid
       ><title
@@ -543,4 +543,29 @@
       ><line
       > .i ko klama li jo'i no boi no</line
       ><line
-      > .i ko co'u clugau</line></contents></diary></diarys>
+      > .i ko co'u clugau</line></contents></diary
+  ><diary
+    ><tags
+      ><uuidlen
+      >1</uuidlen
+      ><uuid
+      >f9ce2439-7046-41f1-a4d3-9d61dd627a28</uuid
+      ><title
+      >Run 13</title></tags
+    ><contents
+      ><line
+      > .i ko morji star bu goi lodu'u bagi ko pilno lo penbi gibagi lonu ko bagi crakla la'u li renono gi carna la'u li pavovo cu rapli li mu gi ko na pilno lo penbi</line
+      ><line
+      > .i ko gasnu star bu</line
+      ><line
+      > .i ko rixykla la'u licinono</line
+      ><line
+      > .i ko gasnu star bu</line
+      ><line
+      > .i ko carna fi lo pritu la'u livomu</line
+      ><line
+      > .i ko crakla la'u licinono</line
+      ><line
+      > .i ko carna</line
+      ><line
+      > .i ko bagi gasnu star bu gi naseviska</line></contents></diary></diarys>
