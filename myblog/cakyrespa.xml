@@ -320,7 +320,7 @@
   ><diary
     ><tags
       ><uuidlen
-      >1</uuidlen
+      >2</uuidlen
       ><uuid
       >86dc67ea-1b2c-45f2-aa12-3b8e046b52d0</uuid
       ><title
@@ -568,4 +568,57 @@
       ><line
       > .i ko carna</line
       ><line
-      > .i ko bagi gasnu star bu gi naseviska</line></contents></diary></diarys>
+      > .i ko bagi gasnu star bu gi naseviska</line></contents></diary
+  ><diary
+    ><tags
+      ><uuidlen
+      >1</uuidlen
+      ><uuid
+      >8d8743fc-c6bb-4827-adfa-0c7dc80eb132</uuid
+      ><title
+      >Run 14</title></tags
+    ><contents
+      ><line
+      > .i lo pritu zo'u ko carna ce'u</line
+      ><line
+      > .i lo xunre zo'u ko pilno lo penbi poi me ce'u</line
+      ><line
+      > .i lo crino zo'u ko pilno lo penbi be ce'u</line
+      ><line
+      > .i li mu zo'u ko pilno lo penbi be fi'o cisni ce'u</line
+      ><line
+      > .i broda bu lodu'u ko crakla zo'u ko morji ce'u goi ce'u</line
+      ><line
+      > .i ko gasnu broda bu</line
+      ><line
+      > .i brode bu zo'u ko morji ce'u goi lodu'u ko carna</line
+      ><line
+      > .i ko gasnu brode bu</line
+      ><line
+      > .i lodu'u ko pilno lo burcu poi pelxu zo'u ko morji brodi bu goi ce'u</line
+      ><line
+      > .i ko gasnu brodi bu</line
+      ><line
+      > .i ko rejgau me'e zoi py. temp.jbo .py. setai la lojban.</line
+      ><line
+      > .i ko rejgau me'e zoi py. temp.ckr .py. setai la cakyrespa</line
+      ><line
+      > .i co'o</line
+      ><line
+      ></line
+      ><line
+      > .i zoi py. temp.ckr .py. zo'u ko tcidu la me ce'u setai la cakyrespa</line
+      ><line
+      > .i co'o</line
+      ><line
+      ></line
+      ><line
+      > .i zoi py. temp.ckr .py. zo'u ko tcidu la'e ce'u</line
+      ><line
+      > .i lo burcu zo'u ko pilno ce'u poi crino</line
+      ><line
+      > .i co'o</line
+      ><line
+      ></line
+      ><line
+      > .i li muno li vomu li renono li pacimu zo'u ko bagi crakla la'u ce'u gibagi carna la'u ce'u gibagi crakla la'u ce'u gibagi carna la'u ce'u gi crakla</line></contents></diary></diarys>
