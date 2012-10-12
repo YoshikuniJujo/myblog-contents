@@ -35,14 +35,14 @@
       ><title
       >Windows Binary</title
       ><link
-      >cakyrespa-0.0.15.exe,files/exe/cakyrespa-0.0.15.exe</link
+      >cakyrespa-0.0.22.exe,files/exe/cakyrespa-0.0.22.exe</link
       ><link
       >glut32.dll,files/exe/glut32.dll</link></tags
     ><contents
       ><line
       >Download two files and move to same folder.</line
       ><line
-      >And run cakyrespa-0.0.15.exe.</line
+      >And run cakyrespa-0.0.22.exe.</line
       ><line
       >You can finish the program by input ".i co'o".</line></contents></diary
   ><diary
@@ -338,31 +338,31 @@
       >Run 7</title></tags
     ><contents
       ><line
-      > .i ko pilno lo penbi poi li vo cisni</line
+      > .i ko pilno lo penbi poi cisni livo</line
       ><line
       > .i ko crakla</line
       ><line
       > .i ko carna</line
       ><line
-      > .i ko pilno lo penbi poi li bi cisni</line
+      > .i ko pilno lo penbi poi cisni libi</line
       ><line
       > .i ko crakla</line
       ><line
       > .i ko carna</line
       ><line
-      > .i ko pilno lo penbi poi li pare cisni</line
+      > .i ko pilno lo penbi poi cisni lipare</line
       ><line
       > .i ko crakla</line
       ><line
       > .i ko carna</line
       ><line
-      > .i ko pilno lo penbi poi li paxa cisni</line
+      > .i ko pilno lo penbi poi cisni lipaxa</line
       ><line
       > .i ko crakla</line
       ><line
       > .i ko carna</line
       ><line
-      > .i ko pilno lo penbi poi li pa cisni</line
+      > .i ko pilno lo penbi poi cisni lipa</line
       ><line
       > .i ko rixykla</line
       ><line
@@ -377,9 +377,9 @@
       >Run 7.5</title></tags
     ><contents
       ><line
-      > .i bagi livo gibagi libi gibagi lipare gi lipaxa zo'u ko bagi pilno lo penbi poi ce'u cisni gibagi crakla gi carna</line
+      > .i bagi livo gibagi libi gibagi lipare gi lipaxa zo'u ko bagi pilno lo penbi poi cisni ce'u gibagi crakla gi carna</line
       ><line
-      > .i ko pilno lo penbi poi li pa cisni</line
+      > .i ko pilno lo penbi poi cisni lipa</line
       ><line
       > .i ko rixykla</line></contents></diary
   ><diary
@@ -486,11 +486,11 @@
       ><line
       > .i ko pilno lo penbi poi pelxu</line
       ><line
-      > .i ko pilno lo penbi poi li xa cisni</line
+      > .i ko pilno lo penbi poi cisni lixa</line
       ><line
       > .i ko pilno lo burcu poi pelxu</line
       ><line
-      > .i li bi cisni ko</line
+      > .i ko cisni libi</line
       ><line
       > .i ko carna la'u li cixa</line
       ><line
@@ -518,7 +518,7 @@
       ><line
       ></line
       ><line
-      > .i ko tcidu la me zoi py. picture.ckr .py.</line
+      > .i ko tcidu la me zoi py. picture.ckr .py. setai la cakyrespa</line
       ><line
       > .i ko rejgau me'e zoi py. picture.svg .py. setai la syvygyd.</line></contents></diary
   ><diary
@@ -572,7 +572,7 @@
   ><diary
     ><tags
       ><uuidlen
-      >1</uuidlen
+      >2</uuidlen
       ><uuid
       >8d8743fc-c6bb-4827-adfa-0c7dc80eb132</uuid
       ><title
@@ -585,7 +585,9 @@
       ><line
       > .i lo crino zo'u ko pilno lo penbi be ce'u</line
       ><line
-      > .i li mu zo'u ko pilno lo penbi be fi'o cisni ce'u</line
+      ># .i li mu zo'u ko pilno lo penbi be fi'o cisni ce'u</line
+      ><line
+      > .i li mu zo'u ko pilno lo penbi poi cisni ce'u</line
       ><line
       > .i broda bu lodu'u ko crakla zo'u ko morji ce'u goi ce'u</line
       ><line
@@ -607,13 +609,13 @@
       ><line
       ></line
       ><line
-      > .i zoi py. temp.ckr .py. zo'u ko tcidu la me ce'u setai la cakyrespa</line
+      > .i zoi py. temp.ckr .py. zo'u ko tcidu la me ce'u setai la lojban.</line
       ><line
       > .i co'o</line
       ><line
       ></line
       ><line
-      > .i zoi py. temp.ckr .py. zo'u ko tcidu la'e ce'u</line
+      > .i zoi py. temp.ckr .py. zo'u ko tcidu la'e ce'u setai la cakyrespa</line
       ><line
       > .i lo burcu zo'u ko pilno ce'u poi crino</line
       ><line
@@ -621,4 +623,15 @@
       ><line
       ></line
       ><line
-      > .i li muno li vomu li renono li pacimu zo'u ko bagi crakla la'u ce'u gibagi carna la'u ce'u gibagi crakla la'u ce'u gibagi carna la'u ce'u gi crakla</line></contents></diary></diarys>
+      > .i li muno li vomu li renono li pacimu zo'u ko bagi crakla la'u ce'u gibagi carna la'u ce'u gibagi crakla la'u ce'u gibagi carna la'u ce'u gi crakla</line></contents></diary
+  ><diary
+    ><tags
+      ><uuidlen
+      >1</uuidlen
+      ><uuid
+      >879edc81-60e6-4a82-a063-4746a2631d22</uuid
+      ><title
+      >Run 15</title></tags
+    ><contents
+      ><line
+      > .i ko cisnygau lo foldi li jo'i vonono boi renono</line></contents></diary></diarys>
