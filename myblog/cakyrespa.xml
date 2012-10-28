@@ -35,14 +35,14 @@
       ><title
       >Windows Binary</title
       ><link
-      >cakyrespa-0.0.27.exe,files/exe/cakyrespa-0.0.27.exe</link
+      >cakyrespa-0.0.28.exe,files/exe/cakyrespa-0.0.28.exe</link
       ><link
       >glut32.dll,files/exe/glut32.dll</link></tags
     ><contents
       ><line
       >Download two files and move to same folder.</line
       ><line
-      >And run cakyrespa-0.0.27.exe.</line
+      >And run cakyrespa-0.0.28.exe.</line
       ><line
       >You can finish the program by input ".i co'o".</line></contents></diary
   ><diary
@@ -209,7 +209,7 @@
       >Run 3.5</title></tags
     ><contents
       ><line
-      > .i lonu ko bagi rixykla gi carna fi lo pritu cu rapli li vo</line></contents></diary
+      > .i lonu ko bagi rixykla gi carna fi lo pritu cu rapli livo</line></contents></diary
   ><diary
     ><tags
       ><uuidlen
@@ -281,7 +281,7 @@
       >Run 5.5</title></tags
     ><contents
       ><line
-      > .i bagi ko co'a clugau gi bagi lonu ko bagi crakla gi carna cu rapli livo gi ko co'u clugau</line></contents></diary
+      > .i bagi ko co'a clugau gibagi lonu ko bagi crakla gi carna cu rapli livo gi ko co'u clugau</line></contents></diary
   ><diary
     ><tags
       ><uuidlen
@@ -433,7 +433,7 @@
       ><line
       > .i ko pilno lo penbi poi blanu</line
       ><line
-      > .i bagi ko co'a clugau gi bagi lonu ko bagi crakla gi carna cu rapli livo gi ko co'u clugau</line></contents></diary
+      > .i bagi ko co'a clugau gibagi lonu ko bagi crakla gi carna cu rapli livo gi ko co'u clugau</line></contents></diary
   ><diary
     ><tags
       ><uuidlen
@@ -458,6 +458,8 @@
       ><line
       > .i ko co'u clugau</line
       ><line
+      > .i naviska ko</line
+      ><line
       > .i ko xruti</line
       ><line
       > .i ko xruti</line
@@ -473,13 +475,17 @@
       >Run 10</title></tags
     ><contents
       ><line
-      > .i bagi ko co'a clugau gi bagi lonu ko bagi crakla gi carna cu rapli li vo gi ko co'u clugau</line
+      > .i bagi ko co'a clugau gibagi lonu ko bagi crakla gi carna cu rapli lici gi ko co'u clugau</line
       ><line
       > .i tu'a ko galfi lo foldi lo crino</line
       ><line
       > .i tu'a ko galfi lo foldi lo pelxu</line
       ><line
-      > .i ko xruti</line></contents></diary
+      > .i ko xruti</line
+      ><line
+      > .i ko xrukla lo krasi</line
+      ><line
+      > .i ko vimcu lo pixra</line></contents></diary
   ><diary
     ><tags
       ><uuidlen
@@ -498,23 +504,23 @@
       ><line
       > .i ko pilno lo burcu poi pelxu</line
       ><line
-      > .i ko cisni libi</line
+      > .i ko cisni livo</line
       ><line
-      > .i ko carna la'u li cixa</line
+      > .i ko carna la'u licixa</line
       ><line
-      > .i lonu ko bagi crakla la'u li renono gi carna la'u li pavovo cu rapli li mu</line
+      > .i lonu ko bagi crakla la'u lipareno gi carna la'u lipavovo cu rapli limu</line
       ><line
-      > .i ko na pilno lo penbi</line
+      > .i ko napilno lo penbi</line
       ><line
-      > .i ko carna fi lo pritu la'u li cixa</line
+      > .i ko carna fi lo pritu la'u licixa</line
       ><line
-      > .i ko rixykla la'u li pabino</line
+      > .i ko rixykla la'u lipabino</line
       ><line
       > .i ko pilno lo penbi</line
       ><line
       > .i ko co'a clugau</line
       ><line
-      > .i lonu ko bagi crakla la'u li pabi gi carna la'u li pano cu rapli li cixa</line
+      > .i lonu ko bagi crakla la'u libi gi carna la'u lipano cu rapli licixa</line
       ><line
       > .i ko co'u clugau</line
       ><line
