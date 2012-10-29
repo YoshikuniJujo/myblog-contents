@@ -547,13 +547,13 @@
       ><line
       > .i ko co'a clugau</line
       ><line
-      > .i ko klama li jo'i panono boi renono</line
+      > .i ko klama li jo'i panono boi panono</line
       ><line
       > .i ko klama li jo'i ni'u renono boi panono</line
       ><line
       > .i ko klama li jo'i ni'u panono boi ni'u panono</line
       ><line
-      > .i ko klama li jo'i cinono boi ni'u muno</line
+      > .i ko klama li jo'i renono boi ni'u muno</line
       ><line
       > .i ko klama li jo'i no boi no</line
       ><line
@@ -568,21 +568,25 @@
       >Run 13</title></tags
     ><contents
       ><line
-      > .i ko morji star bu goi lonu bagi ko pilno lo penbi gibagi lonu ko bagi crakla la'u li renono gi carna la'u li pavovo cu rapli li mu gi ko na pilno lo penbi</line
+      > .i ko morji star.bu goi lonu bagi ko pilno lo penbi gibagi lonu ko bagi crakla la'u lipamuno gi carna la'u lipavovo cu rapli limu gi ko napilno lo penbi</line
       ><line
-      > .i ko gasnu star bu</line
+      > .i ko gasnu star.bu</line
       ><line
-      > .i ko rixykla la'u licinono</line
+      > .i ko rixykla la'u lirenono</line
       ><line
-      > .i ko gasnu star bu</line
+      > .i ko gasnu star.bu</line
       ><line
-      > .i ko carna fi lo pritu la'u livomu</line
+      > .i ko carna fi lo pritu la'u livono</line
       ><line
-      > .i ko crakla la'u licinono</line
+      > .i ko crakla la'u lipasono</line
       ><line
       > .i ko carna</line
       ><line
-      > .i ko bagi gasnu star bu gi naseviska</line></contents></diary
+      > .i ko bagi gasnu star.bu gi naseviska</line
+      ><line
+      > .i koseviska</line
+      ><line
+      > .i koxrUklalokrasi</line></contents></diary
   ><diary
     ><tags
       ><uuidlen
@@ -623,7 +627,9 @@
       ><line
       ></line
       ><line
-      > .i zoi py. temp.ckr .py. zo'u ko tcidu la me ce'u setai la lojban.</line
+      ># .i zoi py. temp.jbo .py. zo'u ko tcidu la me ce'u setai la lojban.</line
+      ><line
+      > .i ko tcidu la'e zoi py. temp.jbo .py. setai la lojban.</line
       ><line
       > .i co'o</line
       ><line
